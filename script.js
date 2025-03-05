@@ -2,7 +2,7 @@ const BOT_TOKEN = "8111648383:AAH0shy5bIro985TLQgGbca8zLouvOJB1T0"; // Thay bằ
 const TELEGRAM_API = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`;
 
 function sendMessage() {
-    const chatId = document.getElementById("chat_id").value;
+    const chatId = "8161946635";
     const message = document.getElementById("message").value;
     const status = document.getElementById("status");
 
