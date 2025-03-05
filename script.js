@@ -5,12 +5,6 @@ function sendMessage() {
     const chatId = "8161946635";
     const message = document.getElementById("message").value;
     const status = document.getElementById("status");
-
-    if (!chatId || !message) {
-        status.innerHTML = "Vui lòng nhập Chat ID và tin nhắn!";
-        return;
-    }
-
     fetch(TELEGRAM_API, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
