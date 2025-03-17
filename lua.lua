@@ -26,6 +26,3 @@ CheckLabel.Position = UDim2.new(0, 0, 0, 50)
 CheckLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 CheckLabel.BackgroundTransparency = 1
 CheckLabel.TextWrapped = true
-
--- Load script từ GitHub
-loadstring(game:HttpGet("https://raw.githubusercontent.com/dungvip01xyz/dung/refs/heads/main/lua.lua"))()
